@@ -17,6 +17,10 @@ ZSH frameworks such as [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh).
 - [Unit testing](#unit-testing)
 - [License](#license)
 
+### Custom Changes in This Fork
+
+This fork introduces a modification to the `prompt_context` function to display the current Git commit hash in the prompt when inside a repository, replacing the hostname for enhanced context during development. This change helps developers quickly identify the current commit state directly in their shell prompt.
+
 ## Preview
 
 ![Oh-My-VIA theme preview](https://user-images.githubusercontent.com/19719047/85171739-db627c00-b26f-11ea-94ef-8f1f87929c47.png "Oh-My-VIA theme preview")
