@@ -56,7 +56,7 @@ set_default OHMYVIA_VCS_THEME           "default"
 
 OHMYVIA_EOL="%(?.$OHMYVIA_STATUS_OK_COLOR.$OHMYVIA_STATUS_ERROR_COLOR)%#%f%b"
 
-PROMPT="$(prompt_time) $(prompt_context) $(prompt_dir)${OHMYVIA_EOL} "
+PROMPT='$(prompt_time) $(prompt_context) $(prompt_dir)'${OHMYVIA_EOL}' '
 
 # Display vcs info
 # http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#Version-Control-Information
